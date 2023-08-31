@@ -1,0 +1,16 @@
+{
+    "name": "michael-milette/moodle-local_aiid",
+    "type": "moodle-local",
+    "description": "This Moodle plugin enables content creators to easily create complete courses using AI technology.",
+    "license": "GPL-3.0+",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "aiid"
+    },
+    "support": {
+        "issues": "https://github.com/michael-milette/moodle-local_aiid/issues",
+        "source": "https://github.com/michael-milette/moodle-local_aiid/"
+    }
+}
