@@ -15,17 +15,18 @@
 // along with AI Instructional Designer.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Plugin version and other meta-data are defined here.
+ * Add AI Instructional Designer to Site Administration > Courses > Courses.
  *
  * @package     local_aiid
+ * @category    admin
  * @copyright   Copyright 2015-2023 TNG Consulting Inc. <www.tngconsulting.ca>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'local_aiid';
-$plugin->release = '0.2.0';
-$plugin->version = 2023083100;
-$plugin->requires = 2020061500;
-$plugin->maturity = MATURITY_ALPHA;
+function local_aiid_extend_settings_navigation($navigation, $context) {
+    if (is_siteadmin()) {
+        $navigation->add(get_string('pluginname', 'local_aiid'), new moodle_url('/local/aiid/'));
+    }
+}

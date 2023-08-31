@@ -25,17 +25,23 @@
 
 // Include config.php.
 require_once(__DIR__ . '/../../config.php');
+require_once($CFG->libdir . '/adminlib.php');
 
-// Include our function library.
 $pluginname = 'aiid';
-require_once($CFG->dirroot.'/local/' . $pluginname . '/locallib.php');
 
-// Ensure only administrators have access.
+// =============================
+// Only administrators access.
+// =============================
+
 $homeurl = new moodle_url('/');
 require_login();
 if (!is_siteadmin()) {
     redirect($homeurl, "This feature is only available for site administrators.", 5);
 }
+
+// =============================
+// Set up the page.
+// =============================
 
 $title = get_string('pluginname', 'local_' . $pluginname);
 $heading = get_string('heading', 'local_' . $pluginname);
@@ -50,34 +56,38 @@ $PAGE->set_pagelayout('admin');
 $PAGE->set_url($url);
 $PAGE->set_context($context);
 $PAGE->set_title($title);
-$PAGE->set_heading($heading);
-admin_externalpage_setup('local_' . $pluginname); // Sets the navbar & expands navmenu.
+$PAGE->set_heading($title);
 
-$form = new aiid_form(null, array('fromdefault' => $fromdefault));
+// =============================
+// Display the page
+// =============================
+
+// Include our function library.
+require_once($CFG->dirroot.'/local/' . $pluginname . '/locallib.php');
+// Include the form.
+require_once($CFG->dirroot.'/local/' . $pluginname . '/classes/aiid_form.php');
+
+$form = new aiid_form(new moodle_url('/local/aiid/'));
+
+// If clicked cancel button.
 if ($form->is_cancelled()) {
+    // Redirect to home page.
     redirect($homeurl);
 }
 
+// Page header.
 echo $OUTPUT->header();
 
-$data = $form->get_data();
-if (!$data) { // Display the form.
-
+if ($data = $form->get_data()) {
+    // Form was submitted. Generate the course.
+    // Include required library.
+    require_once($CFG->dirroot.'/course/modlib.php');
+    require($CFG->dirroot . '/local/aiid/create-course.php');
+} else {
+    // Display the form.
     echo $OUTPUT->heading($heading);
-
-    echo "Form goes here.";
-
-    // example: $data->sender
-
-    // Display the form. ============================================.
     $form->display();
-
-} else {      // Generate course.
-
-    echo "Generating the course...the code goes here";
-
 }
 
-// Footing  =========================================================.
-
+// Page footer.
 echo $OUTPUT->footer();

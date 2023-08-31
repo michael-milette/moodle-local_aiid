@@ -1,6 +1,6 @@
 <img src="pix/logo.png" align="right" />
 
-AI Course Designer plugin for Moodle
+AI Instructional Designer plugin for Moodle
 ====================================
 ![PHP](https://img.shields.io/badge/PHP-v7.2%2F%20v7.3%2F%20v7.4%2F%20v8.0%2F%20v8.1-blue.svg)
 ![Moodle](https://img.shields.io/badge/Moodle-v3.9%20to%20v4.2-orange.svg)
@@ -10,11 +10,11 @@ AI Course Designer plugin for Moodle
 
 # Table of Contents
 
-- [AI Course Designer plugin for Moodle](#ai-course-designer-plugin-for-moodle)
+- [AI Instructional Designer plugin for Moodle](#ai-instructional-designer-plugin-for-moodle)
 - [Table of Contents](#table-of-contents)
 - [Basic Overview](#basic-overview)
 - [Requirements](#requirements)
-- [Download AI Course Designer for Moodle](#download-ai-course-designer-for-moodle)
+- [Download AI Instructional Designer for Moodle](#download-ai-instructional-designer-for-moodle)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Updating](#updating)
@@ -30,7 +30,7 @@ AI Course Designer plugin for Moodle
 
 # Basic Overview
 
-AI Course Designer for Moodle enables content creators to easily generate and create courses in Moodle using GPT artificial intelligence.
+AI Instructional Designer for Moodle enables content creators to easily generate and create courses in Moodle using GPT artificial intelligence.
 
 [(Back to top)](#table-of-contents)
 
@@ -40,9 +40,9 @@ This plugin requires Moodle 3.9+ from https://moodle.org/ and an active account 
 
 [(Back to top)](#table-of-contents)
 
-# Download AI Course Designer for Moodle
+# Download AI Instructional Designer for Moodle
 
-The most recent ALPHA release of AI Course Designer for Moodle is NOT YET available from:
+The most recent ALPHA release of AI Instructional Designer for Moodle is NOT YET available from:
 https://moodle.org/plugins/local_aiid
 
 The most recent DEVELOPMENT release can be found at:
@@ -60,9 +60,9 @@ See https://docs.moodle.org/en/Installing_plugins for details on installing Mood
 
 This plugin requries a commercial subscription via a paid or trial OpenAI account. To get started, create an OpenAI account [here](https://openai.com/api/). Once a paid account is created, all you need to do is to create an API key and add it to the plugin settings.
 
-AI Course Designer for Moodle includes the following settings. These are available on the plugin's **Settings** page by going to:
+AI Instructional Designer for Moodle includes the following settings. These are available on the plugin's **Settings** page by going to:
 
-Site administration > Plugins > Local > AI Course Designer
+Site administration > Plugins > Local > AI Instructional Designer
 
 [(Back to top)](#table-of-contents)
 
@@ -85,7 +85,7 @@ For more information on releases since then, see
 
 Uninstalling the plugin by going into the following:
 
-Home > Administration > Site Administration > Plugins > Manage plugins > AI Course Designer
+Home > Administration > Site Administration > Plugins > Manage plugins > AI Instructional Designer
 
 ...and click Uninstall. You may also need to manually delete the following folder if your webserver does not have the required permissions:
 
@@ -187,19 +187,19 @@ https://github.com/michael-milette/moodle-local_aiid
 
 Copyright © 2017-2023 TNG Consulting Inc. - https://www.tngconsulting.ca/
 
-This file is part of AI Course Designer for Moodle - https://moodle.org/
+This file is part of AI Instructional Designer for Moodle - https://moodle.org/
 
-AI Course Designer is free software: you can redistribute it and/or modify
+AI Instructional Designer is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-AI Course Designer is distributed in the hope that it will be useful,
+AI Instructional Designer is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with AI Course Designer.  If not, see <https://www.gnu.org/licenses/>.
+along with AI Instructional Designer.  If not, see <https://www.gnu.org/licenses/>.
 
 [(Back to top)](#table-of-contents)
