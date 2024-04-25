@@ -18,14 +18,14 @@
  * Plugin version and other meta-data are defined here.
  *
  * @package     local_aiid
- * @copyright   Copyright 2015-2023 TNG Consulting Inc. <www.tngconsulting.ca>
+ * @copyright   Copyright 2015-2024 TNG Consulting Inc. <www.tngconsulting.ca>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_aiid';
-$plugin->release = '0.1.0';
-$plugin->version = 2023083000;
+$plugin->release = '1.0.0';
+$plugin->version = 2024042200;
 $plugin->requires = 2020061500;
 $plugin->maturity = MATURITY_ALPHA;

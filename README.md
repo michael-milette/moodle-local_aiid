@@ -2,8 +2,8 @@
 
 AI Course Designer plugin for Moodle
 ====================================
-![PHP](https://img.shields.io/badge/PHP-v7.2%2F%20v7.3%2F%20v7.4%2F%20v8.0%2F%20v8.1-blue.svg)
-![Moodle](https://img.shields.io/badge/Moodle-v3.9%20to%20v4.2-orange.svg)
+![PHP](https://img.shields.io/badge/PHP-v8.0%20to%20v8.3-blue.svg)
+![Moodle](https://img.shields.io/badge/Moodle-v4.1%20to%20v4.4-orange.svg)
 [![GitHub Issues](https://img.shields.io/github/issues/michael-milette/moodle-local_aiid.svg)](https://github.com/michael-milette/moodle-local_aiid/issues)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green.svg)](#contributing)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](#license)
@@ -185,7 +185,7 @@ https://github.com/michael-milette/moodle-local_aiid
 
 # License
 
-Copyright © 2017-2023 TNG Consulting Inc. - https://www.tngconsulting.ca/
+Copyright © 2017-2024 TNG Consulting Inc. - https://www.tngconsulting.ca/
 
 This file is part of AI Course Designer for Moodle - https://moodle.org/
 

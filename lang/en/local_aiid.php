@@ -19,7 +19,7 @@
  *
  * @package     local_aiid
  * @category    string
- * @copyright   Copyright 2015-2023 TNG Consulting Inc. <www.tngconsulting.ca>
+ * @copyright   Copyright 2015-2024 TNG Consulting Inc. <www.tngconsulting.ca>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

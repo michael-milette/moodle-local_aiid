@@ -28,7 +28,7 @@ namespace local_aiid\privacy;
 /**
  * Privacy Subsystem for local_aiid implementing null_provider.
  *
- * @copyright  2018-2023 TNG Consulting Inc. <www.tngconsulting.ca>
+ * @copyright  2018-2024 TNG Consulting Inc. <www.tngconsulting.ca>
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {
@@ -39,7 +39,7 @@ class provider implements \core_privacy\local\metadata\null_provider {
      *
      * @return  string
      */
-    public static function get_reason() : string {
+    public static function get_reason(): string {
         return 'privacy:metadata';
     }
 }
