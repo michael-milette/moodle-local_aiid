@@ -36,7 +36,7 @@ AI Course Designer for Moodle enables content creators to easily generate and cr
 
 # Requirements
 
-This plugin requires Moodle 3.9+ from https://moodle.org/ and an active account on openai.com. Note that some features require more recent versions of Moodle.
+This plugin requires Moodle 4.1+ from https://moodle.org/ and an active account on openai.com. Note that some features require more recent versions of Moodle.
 
 [(Back to top)](#table-of-contents)
 
@@ -58,7 +58,7 @@ Install the plugin, like any other plugin, to the following folder:
 
 See https://docs.moodle.org/en/Installing_plugins for details on installing Moodle plugins.
 
-This plugin requries a commercial subscription via a paid or trial OpenAI account. To get started, create an OpenAI account [here](https://openai.com/api/). Once a paid account is created, all you need to do is to create an API key and add it to the plugin settings.
+This plugin requires a commercial subscription via a paid or trial OpenAI account. To get started, create an OpenAI account [here](https://openai.com/api/). Once a paid account is created, all you need to do is to create an API key and add it to the plugin settings.
 
 AI Course Designer for Moodle includes the following settings. These are available on the plugin's **Settings** page by going to:
 
@@ -87,7 +87,7 @@ Uninstalling the plugin by going into the following:
 
 Home > Administration > Site Administration > Plugins > Manage plugins > AI Course Designer
 
-...and click Uninstall. You may also need to manually delete the following folder if your webserver does not have the required permissions:
+...and click Uninstall. You may also need to manually delete the following folder if your web server does not have the required permissions:
 
     /local/aiid
 
@@ -95,7 +95,7 @@ Home > Administration > Site Administration > Plugins > Manage plugins > AI Cour
 
 The plugin is currently incomplete.
 
-The plugin can only create courses in languages for which language packs are installed on the site and that which GPT supports. This plugin has not been tested for right-to-left (RTL) language support. If you want to use this plugin with an RTL language and it doesn't work as-is, feel free to prepare a pull request and submit it to the project page at:
+The plugin can only create courses in languages for which language packs are installed on the site and which GPT supports. This plugin has not been tested for right-to-left (RTL) language support. If you want to use this plugin with an RTL language and it doesn't work as-is, feel free to prepare a pull request and submit it to the project page at:
 
 https://github.com/michael-milette/moodle-local_aiid
 
@@ -135,7 +135,7 @@ IMPORTANT: Although we expect everything to work, this release has not been full
 
 **Does AIID log course generation requests?**
 
-Not yet. However it will in the future for security audit reasons.
+Not yet. However, it will in the future for security audit reasons.
 
 **Are there any security considerations?**
 
@@ -143,7 +143,7 @@ Security has not yet been implemented. Currently, only site administrators can u
 
 **How can I get answers to other questions?**
 
-Got a burning question that is not covered here? If you can't find your answer, submit your question in the Moodle forums or open a new issue on Github at:
+Have a burning question that is not covered here? If you can't find your answer, submit your question in the Moodle forums or open a new issue on Github at:
 
 https://github.com/michael-milette/moodle-local_aiid/issues
 
@@ -161,11 +161,11 @@ Big thank you to the following contributors. (Please let me know if I forgot to 
 
 * [Nobody but the author yet - be the first?]
 
-Thank you also to all the people who have requested features, tested and reported bugs.
+Thank you to the people who have requested features, tested and reported bugs.
 
 **Pending Features**
 
-If have specific requirements, consider contributing or hiring us to accelerate development.
+If you have specific requirements, consider hiring us.
 
 [(Back to top)](#table-of-contents)
 
